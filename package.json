@@ -42,6 +42,7 @@
     }
   },
   "dependencies": {
+    "@stripe/stripe-js": "^1.9.0",
     "antd": "^3.20.1",
     "bourbon": "^6.0.0",
     "classnames": "^2.2.6",
