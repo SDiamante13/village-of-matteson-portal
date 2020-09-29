@@ -2,7 +2,6 @@ import React, { useState, memo } from 'react'
 import PropTypes from 'prop-types'
 import classNames from 'classnames'
 import { Layout, Menu, Icon, Typography } from 'antd'
-import { ReactComponent as LogoIcon } from '@static/logo.svg'
 
 const LandingLayout = ({ children }) => {
   const [collapsed, toggle] = useState(true)
@@ -16,7 +15,6 @@ const LandingLayout = ({ children }) => {
           theme='light'
         >
           <div className='h-20 m-2 flex items-center justify-around'>
-            <LogoIcon className='h-10 w-10 mr-2 fill-primary-color' />
             <Typography.Title
               level={4}
               className={classNames('text-primary-color', {
@@ -34,15 +32,15 @@ const LandingLayout = ({ children }) => {
           >
             <Menu.Item key='1'>
               <Icon type='user' />
-              <span>nav 1</span>
+              <span>Account</span>
             </Menu.Item>
             <Menu.Item key='2'>
-              <Icon type='video-camera' />
-              <span>nav 2</span>
+              <Icon type='bank' />
+              <span>Make a Payment</span>
             </Menu.Item>
             <Menu.Item key='3'>
-              <Icon type='upload' />
-              <span>nav 3</span>
+              <Icon type='bulb' />
+              <span>Settings</span>
             </Menu.Item>
           </Menu>
         </Layout.Sider>

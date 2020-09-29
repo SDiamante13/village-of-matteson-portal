@@ -46,6 +46,7 @@
     "antd": "^3.20.1",
     "bourbon": "^6.0.0",
     "classnames": "^2.2.6",
+    "faunadb": "^3.0.1",
     "gatsby": "^2.24.65",
     "lodash": "^4.17.20",
     "moment": "^2.24.0",
